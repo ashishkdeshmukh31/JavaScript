@@ -31,3 +31,30 @@ true=>1;  false=>0
 console.log("2"==2)   // true it check only value
 console.log("2"===2)  // false  it check value as well as datatype
 
+let id=Symbol('123')
+let anotherId=Symbol('123')
+
+console.log(id===anotherId)
+
+//Non primitve
+
+const arr=["Ash","Ani","AK"]
+console.log(arr.length,arr[0],arr[2])
+
+let myObject={
+    name:"Ashish",
+    roll_no:57,
+}
+
+console.log(myObject.name)
+
+const myFun=function(){
+    console.log("Hello Ashish....")
+}
+
+myFun()
+
+
+//null returns the object 
+//undefined return undefined
+//all return their types like boolean to boolean , number to number, string to string
